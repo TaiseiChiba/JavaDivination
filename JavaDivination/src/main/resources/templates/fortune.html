@@ -7,11 +7,7 @@
 <body>
 <h1>あなたの運勢は...<Strong th:text="${fortune}"></Strong>!</h1>
 <button class="again" th:text="もう一度占う"></button>
-<th:block id="plugins">
-    <script type="text/javascript" th:src="@{/dist/jquery/js/multiple-select.js}"></script>
-    <script type="text/javascript" th:src="@{/dist/jquery/js/jquery.selection.js}"></script>
-    <script type="text/javascript" th:src="@{/dist/leader-line/leader-line.min.js}"></script>
-</th:block>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <th:block id="scripts">
     <script type="text/javascript" th:src="@{/js/fortune.js}"></script>
 </th:block>

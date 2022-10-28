@@ -1,6 +1,6 @@
 /**
  * リロードします。
  */
-  $(".again").addEventListener('click', function() {
-    window.location.reload();
-  });
+$(".again").on('click', function() {
+  window.location.reload();
+});

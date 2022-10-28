@@ -1,0 +1,2 @@
+# JavaDivination
+SpringBootを用いた占いwebアプリケーション
